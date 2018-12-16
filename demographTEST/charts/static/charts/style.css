@@ -1,0 +1,240 @@
+/*Materialize dark grey #424242*/
+/*materialize light grey #e0e0e0*/
+/*materialize med grey #616161*/
+/*div {*/
+/*border: 1px red solid;*/
+/*}*/
+
+body {
+    background-color: #00bbee;
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+}
+
+.red-text {
+    color: #993366 !important;
+}
+
+header {
+    margin-top: 10px;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #993366;
+}
+
+iframe {
+    width: 100%;
+    min-height: 450px;
+    background-color: white;
+    color: #f2f2f2;
+}
+
+/**************************************DROP DOWNS***************************************/
+.ddMenus {
+    text-align: center;
+}
+
+input.select-dropdown {
+    text-align: center;
+    border-bottom: 0px solid white !important;
+    color: #892d5b !important;
+}
+
+.dropdown-content li > span {
+        text-align: center;
+    margin: 0 auto;
+    color: #993366;
+}
+
+.select-wrapper .caret {
+    position: absolute;
+    top: 55%;
+    right: 40%;
+    fill: #993366;
+}
+
+/*.dd_btn_container {*/
+    /*position: relative;*/
+/*}*/
+
+/*.dd_btn {*/
+    /*margin: 0;*/
+    /*position: absolute;*/
+    /*-ms-transform: translateY(50%);*/
+    /*transform: translateY(50%);*/
+/*}*/
+
+.dropdown-trigger {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 20%;
+    height: 20%;
+}
+
+.dd_text {
+    color: #993366 !important;
+}
+
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+    background-color: #892d5b !important;
+}
+
+.sidenav li > a {
+    color: #993366 !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span  {
+    width: 100%;
+}
+/**************************************BUTTONS***************************************/
+
+.btn-large {
+    height: 100%;
+    background-color: #993366;
+    text-transform: none;
+
+}
+
+.btn-large:hover {
+    height: 100%;
+    background-color: #892d5b;
+}
+
+.btn {
+    background-color: #993366;
+    text-transform: none;
+
+}
+
+.btn:hover {
+    background-color: #892d5b !important;
+}
+
+/**************************************EXTRA***************************************/
+#i_frame_div {
+    position: relative;
+}
+
+.homeStyles {
+    font-size: 1.25em;
+    margin: 0 -17%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    letter-spacing: 1px;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    box-shadow: 3px 3px 5px #666;
+
+}
+
+.brand-logo {
+    margin-left: 4%;
+}
+
+#circle {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5%;
+}
+
+.chartContainer {
+    background-color: #f1f1f1;
+    border-radius: 35px 35px 0 0;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 3px 3px 5px #666;
+}
+
+.mainContainer {
+    padding-top: 3%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 187, 238, 0.9), rgba(0, 187, 238, 0.4)), url("images/data.jpeg");
+    background-size: cover;
+}
+
+.subtitle {
+    color: #616161;
+}
+
+.socMedia {
+    margin-left: 3%;
+}
+
+.socialMedia {
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#graph_iframe {
+    background-color: #333;
+    background-image: url("images/logobigpink.png");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#loading_icon {
+    background-color: #333;
+}
+
+.brand-logo img {
+    height: 60px;
+    margin-left: -10px;
+}
+
+#drop_cap {
+    float: left;
+    width: 0.7em;
+    font-size: 350%;
+    font-family: algerian, courier;
+    line-height: 75%;
+}
+
+.canvas {
+    background-color: red;
+}
+/**************************************MEDIA QUERIES***************************************/
+@media only screen and (max-width: 1000px) {
+    .dropdown-trigger {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #f1f1f1;
+        border:none;
+    }
+
+    .mainContainer {
+        background-color: #f1f1f1;
+        background: none;
+    }
+
+    .chartContainer {
+        background-color: #f1f1f1;
+        border-radius: 0;
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+        border:none;
+    }
+    .select-wrapper .caret {
+    position: static;
+    fill: #993366;
+}
+
+}
